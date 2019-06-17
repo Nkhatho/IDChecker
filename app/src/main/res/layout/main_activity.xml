@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.practice.leole.idchecker.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/etIDNumber"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:textSize="@dimen/textview_textsize"
+        android:maxLength="13"
+        android:hint="@string/hint_id_number"
+        android:background="@color/colorPrimary"
+        android:padding="20dp"
+        android:foreground="#ffffff"
+        android:textColor="@color/colorAccent"
+        android:elevation="@dimen/textview_elevation" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_submit"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:textSize="@dimen/btn_textsize"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:textColor="@color/colorBackground"
+        android:elevation="@dimen/btn_elevation"
+        android:textStyle="bold"
+        android:onClick="btnSubmit_onClick"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/id_info"
+        android:id="@+id/tvResult"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="@dimen/textview_textsize"
+        android:textColor="@color/colorAccent" />
+
+</LinearLayout>

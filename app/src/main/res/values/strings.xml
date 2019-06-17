@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ID Checker</string>
+    <string name="hint_id_number">enter ID nr.</string>
+    <string name="btn_submit">submit</string>
+    <string name="id_info">ID information displays here</string>
+</resources>
